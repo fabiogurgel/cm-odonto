@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  codigo: MyString
+  tipo_procedimento_id: 
+  cliente_id: 
+  consultorio_id: 
+  data: 2018-10-04 13:28:53
+
+two:
+  codigo: MyString
+  tipo_procedimento_id: 
+  cliente_id: 
+  consultorio_id: 
+  data: 2018-10-04 13:28:53

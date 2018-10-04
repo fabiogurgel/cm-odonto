@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cliente_id: 
+  consultorio_id: 
+  data: 2018-10-04 13:28:33
+  confirmado: false
+
+two:
+  cliente_id: 
+  consultorio_id: 
+  data: 2018-10-04 13:28:33
+  confirmado: false

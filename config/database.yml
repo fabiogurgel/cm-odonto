@@ -1,0 +1,23 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres
+  password: postgres
+  host: localhost
+  port: 5432
+
+development:
+  <<: *default
+  database: cm_odonto_development
+  schema_search_path: adm_cm_odonto
+
+test:
+  <<: *default
+  database: cm_odonto_test
+
+# production:
+#   <<: *default
+#   database: car_rent_admin_production
+#   username: car_rent_admin
+#   password: <%= ENV['CAR_RENT_ADMIN_DATABASE_PASSWORD'] %>
